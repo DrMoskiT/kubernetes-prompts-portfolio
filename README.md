@@ -31,7 +31,7 @@ kubernetes-prompts-portfolio/
 │
 ├── README.md
 │
-├── yaml/ # YAML manifests generated or enhanced using prompts
+└─── yaml/ # YAML manifests generated or enhanced using prompts
   ├── app.yaml
   ├── app-livenessProbe.yaml
   ├── app-readinessProbe.yaml

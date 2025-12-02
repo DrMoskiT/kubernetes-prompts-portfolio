@@ -120,6 +120,21 @@ This repository demonstrates:
 
 It is prepared specifically for review as part of a technical screening request.
 
+# Prompt Engineering Portfolio for Kubernetes
+
+Below is a summary table of all prompts and resulting Kubernetes manifests.
+
+| NAME                 | PROMPT | DESCRIPTION | EXAMPLE |
+|---------------------|--------|-------------|----------|
+| app.yaml | Generate a basic Deployment and Service for go-demo-app | Base application deployment | [app.yaml](yaml/app.yaml) |
+| app-livenessProbe.yaml | Add livenessProbe to Deployment | Ensures pod restarts if unhealthy | [app-livenessProbe.yaml](yaml/app-livenessProbe.yaml) |
+| app-readinessProbe.yaml | Add readinessProbe to Deployment | Ensures traffic only routed when app is ready | [app-readinessProbe.yaml](yaml/app-readinessProbe.yaml) |
+| app-volumeMounts.yaml | Add ConfigMap-based volumeMount | Mounts configuration into container | [app-volumeMounts.yaml](yaml/app-volumeMounts.yaml) |
+| app-cronjob.yaml | Generate a CronJob that runs every 5 minutes | Periodic background job | [app-cronjob.yaml](yaml/app-cronjob.yaml) |
+| app-job.yaml | Generate a Job for one-time execution | Simple batch job | [app-job.yaml](yaml/app-job.yaml) |
+| app-multicontainer.yaml | Create Pod with 2 containers sharing a volume | Demonstrates multi-container Pod design | [app-multicontainer.yaml](yaml/app-multicontainer.yaml) |
+| app-resources.yaml | Add CPU & memory requests/limits | Resource control & scheduling | [app-resources.yaml](yaml/app-resources.yaml) |
+| app-secret-env.yaml | Create Secret & Deployment consuming env vars | Secure configuration with secrets | [app-secret-env.yaml](yaml/app-secret-env.yaml) |
 
 
 

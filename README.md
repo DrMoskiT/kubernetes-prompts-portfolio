@@ -27,21 +27,23 @@ This repository fulfills a technical assignment requiring:
 
 ## 📁 Repository Structure
 
+
+```text
 kubernetes-prompts-portfolio/
 │
 ├── README.md
 │
-└─── yaml/ # YAML manifests generated or enhanced using prompts
-  ├── app.yaml
-  ├── app-livenessProbe.yaml
-  ├── app-readinessProbe.yaml
-  ├── app-volumeMounts.yaml
-  ├── app-cronjob.yaml
-  ├── app-job.yaml
-  ├── app-multicontainer.yaml
-  ├── app-resources.yaml
-  └── app-secret-env.yaml
-
+└── yaml/                     # Kubernetes YAML manifests
+    ├── app.yaml
+    ├── app-livenessProbe.yaml
+    ├── app-readinessProbe.yaml
+    ├── app-volumeMounts.yaml
+    ├── app-cronjob.yaml
+    ├── app-job.yaml
+    ├── app-multicontainer.yaml
+    ├── app-resources.yaml
+    └── app-secret-env.yaml
+```
 
 ---
 
